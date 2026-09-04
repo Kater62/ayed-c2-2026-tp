@@ -4,13 +4,13 @@ Repositorio del grupo. Partir de este esqueleto. No borrar la estructura de `src
 
 ## Integrantes
 
-| Nombre | Mail | GitHub |
-| --- | --- | --- |
-|  |  |  |
+| Nombre     | Mail                     | GitHub |
+| Roman Tudda| Romantudda900@gmail.com  |Kater62 |
 |  |  |  |
 |  |  |  |
 
-**Tema elegido:** Pokédex / Recetario / Biblioteca musical (dejar uno)
+
+**Tema elegido:** Biblioteca musical 
 
 ## Cómo ejecutar
 
