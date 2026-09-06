@@ -6,7 +6,7 @@ Repositorio del grupo. Partir de este esqueleto. No borrar la estructura de `src
 
 | Nombre     | Mail                     | GitHub |
 | Roman Tudda| Romantudda900@gmail.com  |Kater62 |
-|  |  |  |
+| Leandro Tomas Sanchez |  |  |
 |  |  |  |
 
 
