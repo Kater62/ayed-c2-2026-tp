@@ -6,7 +6,8 @@ Fecha de esta versión del archivo:
 
 | Entrega | Fecha | Herramienta (ChatGPT, Cursor, Copilot, otra) | Para qué (diseño, código, debug, docs) | Qué pegaron o generaron | Qué reescribieron / revisaron a mano | Integrante |
 | --- | --- | --- | --- | --- | --- | --- |
-| E1 |  |  |  |  |  |  |
+| E1 |06/09/2026  | Gemini  | Tutorial y guia paso a paso | Estructura, base del menu | Escribimos el catalogo y el codigo a mano  | Todos|
+
 | E2 |  |  |  |  |  |  |
 | E3 |  |  |  |  |  |  |
 | E4 |  |  |  |  |  |  |

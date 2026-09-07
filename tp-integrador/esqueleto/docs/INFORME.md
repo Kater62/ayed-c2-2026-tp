@@ -4,12 +4,18 @@ Completar y hacer crecer en cada entrega. No hace falta prosa larga: oraciones c
 
 ## 1. Grupo y tema
 
-- Tema:
+- Tema: Biblioteca Musical
 - Por qué lo eligieron (5–8 líneas):
+Elegimos este tema ya que nos parecio intuitivo y familiar por las apps de musica de hoy en dia, ademas de por lo menos yo soy bastante 
+fan de la musica.
 
 ## 2. Modelo
 
-Qué es un ítem del catálogo. Qué es mutable y qué no (E1). Cómo se relacionan catálogo, colección principal, pila y cola.
+Qué es un ítem del catálogo. Qué es mutable y qué no (E1). Cómo se relacionan catálogo, colección principal, pila y cola.x
+
+Ítem del catálogo: Nuestro ítem es un diccionario que representa una canción.
+Mutables: La lista principal (CATALOGO) y los diccionarios de cada canción.
+Inmutables: Los textos (como los nombres) y los números (como los ID) de las canciones.
 
 ```text
 (pueden pegar un diagrama ASCII o una lista de clases)
