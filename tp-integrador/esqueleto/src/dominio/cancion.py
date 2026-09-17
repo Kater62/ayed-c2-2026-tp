@@ -17,4 +17,3 @@ def listar_catalogo():
         print(f"{cancion.id}. {cancion.titulo} - {cancion.artista} - {cancion.genero}")
     print("------------------------")
 
-listar_catalogo ()
