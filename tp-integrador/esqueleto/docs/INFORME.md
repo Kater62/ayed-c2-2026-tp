@@ -23,10 +23,16 @@ Inmutables: Los textos (como los nombres) y los números (como los ID) de las ca
 
 ## 3. Recursión (E2)
 
-- Función:
-- Caso base:
-- Caso recursivo:
+- Función: versiones (id):
+
+- Caso base: Ocurre cuando nuestro ciclo for recorre todo el catalogo y no encuentra ninguna cancion cuyo proviene_de es igual al id buscado, al no encontrarlo termina la funcion
+
+- Caso recursivo: Ocurre cuando el if encuentra una cancion cuyo proviene_de es igual al id buscado, la imprime y vuelve a llamarse pasandole el id de la nueva version encontrada
+
 - Traza de un ejemplo real del dataset:
+ Llamada 1 : versiones (1) el for recorre el catalogo y encuentra el cover de Nightwish (ID5) porque su proviene_de es (1) lo imprime y ejecuta el caso recursivo llamando a versiones (5)
+ Llamada 2 : versiones (5) el for recorre el catalogo y encuentra la version live (ID6) porque su proviene_de es (5) la imprime y ejecuta el caso recursivo llamando a versiones (6)
+ Llamada 3 : versiones (6) el for recorre el catalogo buscando quien derive del (6), no encuentra a nadie, se alcanza el caso base, la llamada 3 termina y avisa a la llamada 2 que termino, cerrando el ciclo
 
 ## 4. TADs (E3)
 

@@ -1,5 +1,5 @@
 from src.config import TEMA
-from src.dominio.cancion import listar_catalogo
+from src.dominio.cancion import listar_catalogo, versiones
 
 TEMAS = {
     "pokedex": "Pokédex",
@@ -41,7 +41,11 @@ def main():
             print("Chau.")
         elif opcion == "1":
             listar_catalogo ()
-        elif opcion in {"2", "3", "4", "5", "6", "7", "8", "9"}:
+        elif opcion == "5":
+           idelegido = int(input("Ingrese un ID: "))
+           print ("-----Versiones derivadas-----")
+           versiones (idelegido)
+        elif opcion in {"2", "3", "4", "6", "7", "8", "9"}:
             pendiente()
         else:
             print("Opción inválida.")

@@ -8,12 +8,12 @@ Mínimos: 8 casos escritos en E2; ejecutados en E3; 15 de regresión en E6 (pila
 
 | ID | Entrega | Acción (pasos en el CLI) | Datos | Resultado esperado | Resultado | Notas |
 | --- | --- | --- | --- | --- | --- | --- |
-| P01 | E1 | Arrancar el programa y listar catálogo | dataset de la cátedra | lista no vacía, sin traceback |  |  |
-| P02 | E1 | Elegir un ítem inexistente | id = -1 | mensaje claro, el menú sigue |  |  |
-| P03 | E2 | Operación recursiva sobre un ítem con cadena | ver consigna §3.3 | imprime la cadena completa |  |  |
-| P04 | E2 | Operación recursiva sobre un ítem sin derivados |  | solo el ítem (caso base) |  |  |
-| P05 | E2 | Ver el detalle de un ítem que existe |   | muestra todos sus datos | no corrido | |
-| P06 | E2 | Ver el detalle de un ítem que NO existe |  | mensaje claro, no se corta | no corrido | |
+| P01 | E1 | Arrancar el programa y listar catálogo | dataset de la cátedra | lista no vacía, sin traceback | pasa |  |
+| P02 | E1 | Elegir un ítem inexistente | id = -1 | mensaje claro, el menú sigue | pasa |  |
+| P03 | E2 | Operación recursiva sobre un ítem con cadena | id=1 (High Hopes) | imprime la cadena completa | no corrido |  |
+| P04 | E2 | Operación recursiva sobre un ítem sin derivados |id=4 (Mi Genio Amor) | solo el ítem (caso base) | no corrido  |  |
+| P05 | E2 | Ver el detalle de un ítem que existe | id=2   | muestra todos sus datos | no corrido | |
+| P06 | E2 | Ver el detalle de un ítem que NO existe | id=999 | mensaje claro, no se corta | no corrido | |
 | P07 | E2 | Elegir una opción de menú inválida | "9z" | vuelve a mostrar el menú | no corrido | |
 | P08 | E2 | Pasar enter vacío en el menú | enter | no explota; vuelve a preguntar | no corrido | |
 

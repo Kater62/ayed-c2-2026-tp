@@ -8,7 +8,7 @@ Fecha de esta versión del archivo:
 | --- | --- | --- | --- | --- | --- | --- |
 | E1 |06/09/2026  | Gemini  | Tutorial y guia paso a paso | Estructura, base del menu | Escribimos el catalogo y el codigo a mano  | Todos|
 
-| E2 |  |  |  |  |  |  |
+| E2 | 20/09/2026 | Gemini | Me ayudo a razonar y con el codigo en la parte de recursividad | No se pego ni genero nada, todo fue escrito a mano | Revisamos las funciones que anden correctamente | Roman |
 | E3 |  |  |  |  |  |  |
 | E4 |  |  |  |  |  |  |
 | E5 |  |  |  |  |  |  |
