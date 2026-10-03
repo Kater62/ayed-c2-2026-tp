@@ -9,10 +9,15 @@ Fecha de esta versión del archivo:
 | E1 |06/09/2026  | Gemini  | Tutorial y guia paso a paso | Estructura, base del menu | Escribimos el catalogo y el codigo a mano  | Todos|
 | --- | --- | --- | --- | --- | --- | --- |
 | E2 | 20/09/2026 | Gemini | Me ayudo a razonar y con el codigo en la parte de recursividad | No se pego ni genero nada, todo fue escrito a mano | Revisamos las funciones que anden correctamente | Roman |
-
-| E3 |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| E3 | 02/10/2026 |Gemini  | Razonamiento y ayuda con Listas Enlazadas y excepciones  | Codigo escrito a Mano, nada fue copiado ni pegado | Revisamos que todo funcione y que los errores estan siendo capturados correctamente | Roman  |
+| --- | --- | --- | --- | --- | --- | --- |
 | E4 |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
 | E5 |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
 | E6 |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
 
 Compromiso: cualquiera del grupo puede explicar cualquier archivo del tag.
+

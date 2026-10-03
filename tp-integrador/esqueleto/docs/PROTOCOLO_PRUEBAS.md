@@ -10,6 +10,7 @@ Mínimos: 8 casos escritos en E2; ejecutados en E3; 15 de regresión en E6 (pila
 | --- | --- | --- | --- | --- | --- | --- |
 | P01 | E1 | Arrancar el programa y listar catálogo | dataset de la cátedra | lista no vacía, sin traceback | pasa |  |
 | P02 | E1 | Elegir un ítem inexistente | id = -1 | mensaje claro, el menú sigue | pasa |  |
+
 | P03 | E2 | Operación recursiva sobre un ítem con cadena | id=1 (High Hopes) | imprime la cadena completa | no corrido |  |
 | P04 | E2 | Operación recursiva sobre un ítem sin derivados |id=4 (Mi Genio Amor) | solo el ítem (caso base) | no corrido  |  |
 | P05 | E2 | Ver el detalle de un ítem que existe | id=2   | muestra todos sus datos | no corrido | |
@@ -17,19 +18,16 @@ Mínimos: 8 casos escritos en E2; ejecutados en E3; 15 de regresión en E6 (pila
 | P07 | E2 | Elegir una opción de menú inválida | "9z" | vuelve a mostrar el menú | no corrido | |
 | P08 | E2 | Pasar enter vacío en el menú | enter | no explota; vuelve a preguntar | no corrido | |
 
+| P05 | E3 | Agregar a la colección principal hasta el tope | equipo de 6 / equivalente | el séptimo falla con excepción propia | pasa |  |
+| P06 | E3 | Desapilar historial vacío | pila vacía | excepción propia, menú sigue | pasa |  |
+| P07 | E3 | Desencolar cola vacía | cola vacía | excepción propia, menú sigue | pasa |  |
+| P08 | E3 | Listar colección con el iterador | 2+ ítems | el orden coincide con las inserciones | pasa |  |
 
-
-
-
-
-| P05 | E3 | Agregar a la colección principal hasta el tope | equipo de 6 / equivalente | el séptimo falla con excepción propia |  |  |
-| P06 | E3 | Desapilar historial vacío | pila vacía | excepción propia, menú sigue |  |  |
-| P07 | E3 | Desencolar cola vacía | cola vacía | excepción propia, menú sigue |  |  |
-| P08 | E3 | Listar colección con el iterador | 2+ ítems | el orden coincide con las inserciones |  |  |
 | P09 | E4 | Búsqueda lineal de un nombre que existe |  | lo encuentra |  |  |
 | P10 | E4 | Búsqueda lineal de un nombre que no existe |  | no encontrado, sin traceback |  |  |
 | P11 | E4 | Búsqueda binaria con catálogo desordenado |  | avisa o reordena; no da un falso hit |  |  |
 | P12 | E4 | Ordenar por un criterio y después por otro |  | el orden cambia |  |  |
+
 | P13 | E5 | Guardar CSV, salir, volver a entrar |  | los datos siguen |  |  |
 | P14 | E5 | Guardar binario y modificar un registro por id |  | al recargar, ese campo cambió |  |  |
 | P15 | E5 | Abrir un binario truncado o con magia mala | archivo basura | excepción de archivo inválido |  |  |
